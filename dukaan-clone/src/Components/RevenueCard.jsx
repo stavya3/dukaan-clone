@@ -26,7 +26,7 @@ export const RevenueCard = ({
 
             </div>
             {orderCount ? 
-            <div className="flex"> 
+            <div className="flex cursor-pointer underline"> 
                 <div>
                     {orderCount} order(s) 
                 </div>
