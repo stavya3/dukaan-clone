@@ -1,6 +1,7 @@
 
 import './App.css'
 import { BlueCard } from './Components/BlueCard'
+import { Foooter } from './Components/Foooter'
 import { Overview } from './Components/Overview'
 import { RevenueCard } from './Components/RevenueCard'
 import { Table } from './Components/Table'
@@ -17,6 +18,7 @@ function App() {
       <Overview />
       <Transactions />
       <Table />
+      <Foooter />
     </div>
     
   )
