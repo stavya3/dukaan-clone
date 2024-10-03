@@ -20,13 +20,13 @@ export const RevenueCard = ({
         </div>
         
         <br />    
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
             <div className="font-semibold text-3xl">
                 ₹ {amount}
 
             </div>
             {orderCount ? 
-            <div className="flex cursor-pointer underline"> 
+            <div className="flex cursor-pointer text-blue-700 underline"> 
                 <div>
                     {orderCount} order(s) 
                 </div>

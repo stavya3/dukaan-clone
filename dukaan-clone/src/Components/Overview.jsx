@@ -10,7 +10,7 @@ export const Overview = () => {
                 <div className='text-xl font-medium'>Overview</div>
                 <div className="grid grid-flow-col items-center gap-2 h-9 pl-3.5 pr-3.5 rounded border border-black-150 ">
                     <p>This Month</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                    <svg width="12" height="8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
 
